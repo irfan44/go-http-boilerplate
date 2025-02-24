@@ -1,4 +1,4 @@
-module github.com/irfan44/go-h8-boilerplate
+module github.com/irfan44/go-http-boilerplate
 
 go 1.24.0
 

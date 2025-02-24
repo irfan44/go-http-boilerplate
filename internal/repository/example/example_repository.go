@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"github.com/google/uuid"
-	"github.com/irfan44/go-h8-boilerplate/pkg/errors"
+	"github.com/irfan44/go-http-boilerplate/pkg/errors"
 
-	"github.com/irfan44/go-h8-boilerplate/internal/entity"
+	"github.com/irfan44/go-http-boilerplate/internal/entity"
 )
 
 type (

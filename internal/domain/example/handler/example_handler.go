@@ -2,8 +2,8 @@ package handler
 
 import (
 	"context"
-	"github.com/irfan44/go-h8-boilerplate/internal/domain/example/service"
-	"github.com/irfan44/go-h8-boilerplate/pkg/internal_http"
+	"github.com/irfan44/go-http-boilerplate/internal/domain/example/service"
+	"github.com/irfan44/go-http-boilerplate/pkg/internal_http"
 	"net/http"
 
 	"github.com/go-playground/validator/v10"

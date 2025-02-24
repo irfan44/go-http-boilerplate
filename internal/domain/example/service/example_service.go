@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/irfan44/go-h8-boilerplate/internal/repository/example"
-	"github.com/irfan44/go-h8-boilerplate/pkg/errors"
+	"github.com/irfan44/go-http-boilerplate/internal/repository/example"
+	"github.com/irfan44/go-http-boilerplate/pkg/errors"
 
-	"github.com/irfan44/go-h8-boilerplate/internal/dto"
+	"github.com/irfan44/go-http-boilerplate/internal/dto"
 )
 
 type (

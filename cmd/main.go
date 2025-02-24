@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/irfan44/go-h8-boilerplate/pkg/database"
+	"github.com/irfan44/go-http-boilerplate/pkg/database"
 	"log"
 
-	"github.com/irfan44/go-h8-boilerplate/internal/config"
-	"github.com/irfan44/go-h8-boilerplate/internal/server"
+	"github.com/irfan44/go-http-boilerplate/internal/config"
+	"github.com/irfan44/go-http-boilerplate/internal/server"
 	"github.com/joho/godotenv"
 )
 

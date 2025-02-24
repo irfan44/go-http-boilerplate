@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/irfan44/go-h8-boilerplate/internal/domain/example/handler"
-	"github.com/irfan44/go-h8-boilerplate/internal/domain/example/service"
-	"github.com/irfan44/go-h8-boilerplate/internal/repository/example"
+	"github.com/irfan44/go-http-boilerplate/internal/domain/example/handler"
+	"github.com/irfan44/go-http-boilerplate/internal/domain/example/service"
+	"github.com/irfan44/go-http-boilerplate/internal/repository/example"
 	"log"
 	"net/http"
 	"os"
@@ -14,7 +14,7 @@ import (
 	"syscall"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/irfan44/go-h8-boilerplate/internal/config"
+	"github.com/irfan44/go-http-boilerplate/internal/config"
 )
 
 type (

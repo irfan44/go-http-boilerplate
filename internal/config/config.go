@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/irfan44/go-h8-boilerplate/pkg/constants"
+	"github.com/irfan44/go-http-boilerplate/pkg/constants"
 	"os"
 )
 

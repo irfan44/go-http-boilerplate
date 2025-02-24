@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/irfan44/go-h8-boilerplate/internal/dto"
+	"github.com/irfan44/go-http-boilerplate/internal/dto"
 )
 
 func NewBaseResponse(message string) dto.BaseResponse {
