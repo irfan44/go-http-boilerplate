@@ -2,16 +2,15 @@ package dto
 
 import (
 	"github.com/google/uuid"
-	"github.com/irfan44/go-h8-boilerplate/pkg/constants"
 	"time"
 )
 
 // TODO: 2. adjust DTO for request & response
 
 type ExampleRequestDTO struct {
-	Name        string                `json:"name" validate:"required"`
-	ExampleType constants.ExampleType `json:"example_type" validate:"required,oneof=credit debit"`
-	Amount      float64               `json:"amount" validate:"required,min=1"`
+	Name        string  `json:"name" validate:"required"`
+	ExampleType string  `json:"example_type" validate:"required,oneof=credit debit"`
+	Amount      float64 `json:"amount" validate:"required,min=1"`
 }
 
 type ExampleResponseDTO struct {

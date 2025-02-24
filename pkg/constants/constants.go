@@ -10,10 +10,3 @@ const (
 	DBPassword = "DB_PASSWORD"
 	DBName     = "DB_NAME"
 )
-
-type ExampleType string
-
-const (
-	CreditExample ExampleType = "credit"
-	DebitExample  ExampleType = "debit"
-)
